@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 30">
+	<rect width="50" height="30" fill="#102"/>
+	<g stroke="crimson" stroke-width="5">
+		<line x1="0" x2="50" y1="00" y2="30"/>
+		<line x1="0" x2="50" y1="30" y2="00"/>
+	</g><g fill="white" transform="translate(17,5.5)">
+		<polygon points="8,00 0,14 16,14"/>
+		<polygon points="8,19 0,05 16,05"/>
+	</g>
+</svg>
+ 

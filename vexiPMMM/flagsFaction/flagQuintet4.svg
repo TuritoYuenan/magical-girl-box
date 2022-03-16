@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6 3">
+	<polygon fill="#E33" points="0,3 0,0 2,0"/>
+	<polygon fill="#08E" points="0,3 2,0 4,0"/>
+	<polygon fill="gold" points="0,3 4,0 6,0 6,1"/>
+	<polygon fill="#F8A" points="0,3 6,1 6,2"/>
+	<polygon fill="#102" points="0,3 6,2 6,3"/>
+</svg>

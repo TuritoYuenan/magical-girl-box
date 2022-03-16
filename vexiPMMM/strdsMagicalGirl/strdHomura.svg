@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 50">
+	<style>.symbolFill{fill: #102;} .symbolLine{stroke: #102;}</style>
+	<rect width="80" height="50" fill="#102"/>
+	<rect width="40" height="25" fill="white"/>
+	<use href="../symbolMadokami.svg#init" transform="scale(.5)"/>
+	<g stroke-width="3">
+		<line x1="55" x2="55" y1="0" y2="50" stroke="crimson"/>
+		<line x1="65" x2="65" y1="0" y2="50" stroke="white"/>
+	</g>
+	<polygon id="saw" transform="translate(51.5, 2)" fill="crimson"
+		points="0,6 2,4 5,4 7,6 7,2 5,0 2,0 0,2"/><use href="#saw" transform="translate(0,08)"/>
+	<use href="#saw" transform="translate(0,16)"/><use href="#saw" transform="translate(0,24)"/>
+	<use href="#saw" transform="translate(0,32)"/><use href="#saw" transform="translate(0,40)"/>
+	<polygon id="was" transform="translate(61.5, 2)" fill="white"
+		points="0,0 2,2 5,2 7,0 7,4 5,6 2,6 0,4"/><use href="#was" transform="translate(0,08)"/>
+	<use href="#was" transform="translate(0,16)"/><use href="#was" transform="translate(0,24)"/>
+	<use href="#was" transform="translate(0,32)"/><use href="#was" transform="translate(0,40)"/>
+</svg>

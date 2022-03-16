@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 6">
+	<rect width="5" height="3" fill="#101"/>
+	<rect width="5" height="3" fill="#08E" x="5"/>
+	<rect width="5" height="3" fill="#E33" y="3"/>
+	<rect width="5" height="3" fill="#F8A" x="5" y="3"/>
+	<g stroke="gold" stroke-width="1">
+		<line x1="0" x2="10" y1="3" y2="3"/>
+		<line x1="5" x2="5" y1="0" y2="6"/>
+	</g>
+</svg>

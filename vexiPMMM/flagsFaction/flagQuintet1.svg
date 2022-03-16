@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 6">
+	<rect width="10" height="2" y="0" fill="#08E"/>
+	<rect width="10" height="2" y="2"/>
+	<rect width="10" height="2" y="4" fill="#E33"/>
+	<g stroke="gold" stroke-width=".4">
+		<line x1="0" x2="10" y1="2" y2="2"/>
+		<line x1="0" x2="10" y1="4" y2="4"/>
+	</g><polygon fill="#F8A" transform="matrix(.2,0,0,.2,3,1.2)"
+		points="9,0 3,18 18,7 0,7 15,18"/>
+</svg>

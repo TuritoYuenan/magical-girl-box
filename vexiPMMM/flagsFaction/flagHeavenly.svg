@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 50">
+	<style>.symbolFill{fill: white;}.symbolLine{stroke: white;}</style>
+	<rect width="40" height="50" fill="#08E"/>
+	<rect width="40" height="50" x="40" fill="#F7A"/>
+	<use href="../symbolMadokami.svg#init"/>
+</svg>

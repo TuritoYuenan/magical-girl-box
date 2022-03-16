@@ -1,0 +1,14 @@
+body {
+	background-color: #624;
+	color: aliceblue;
+	font-family: sans-serif;
+}
+
+table, th, td {
+	border: solid 0.1em white;
+	border-collapse: collapse;
+}
+
+th, td {vertical-align: top;}
+table {margin: auto;}
+h1, h2, h3, h4 {line-height: 1;}
