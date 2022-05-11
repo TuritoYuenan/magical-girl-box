@@ -1,1 +1,0 @@
-# Magical girl Lore

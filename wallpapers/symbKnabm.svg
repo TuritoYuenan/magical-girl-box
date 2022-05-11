@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
-	<g fill="white">	
-		<path d="m33.4 26.5a10 10 0 0 0-3.42 7.53 10 10 0 0 0 10 10 10 10 0 0 0 10-10 10 10 0 0 0-3.38-7.49 8 8 0 0 1 1.38 4.49 8 8 0 0 1-8 8 8 8 0 0 1-8-8 8 8 0 0 1 1.42-4.53z"/>
-		<polygon points="9,0 3,18 18,7 0,7 15,18" 
-		transform="scale(.5) translate(71,48)"/>
-	</g><g stroke="white" stroke-width="3" fill="none">
-		<line x1="40" x2="40" y1="40" y2="55"/>
-		<line x1="36" x2="44" y1="50" y2="50"/>
-		<rect width="40" height="40" x="20" y="20"/>
-		<polygon points="40,10 70,40 40,70 10,40"/>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 80">
+	<g fill="silver">
+		<path d="m23.4 29a10 10 0 0 0-3.42 7.53 10 10 0 0 0 10.0 10.0
+		10 10 0 0 0 10-10 10 10 0 0 0-3.38-7.49 08 08 0 0 1 1.38 4.49
+		08 08 0 0 1-08 08 08 08 0 0 1-8.00-8.00 08 08 0 0 1 1.42-4.53z"/>
+		<polygon points="9 0 3 18 18 7 0 7 15 18" 
+		transform="scale(.5) translate(51,50)"/>
+	</g><g stroke="silver" stroke-width="3" fill="none">
+		<polygon points="30,10 50,40 30,70 10,40"/>
+		<line x1="30" x2="30" y1="45" y2="58"/>
+		<line x1="25" x2="35" y1="52" y2="52"/>
 	</g>
 </svg>
