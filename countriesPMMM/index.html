@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang='en'><head>
+	<meta charset='UTF-8'><title>Megucas as countries</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+	<link rel='icon' href='../symbols/symbKnabm.svg'><link rel='stylesheet' href='../common.css'><style>
+		h2, p {margin-left: 0; margin-right: 0; font-size: x-large;}
+		table {width: 70%} th, td {vertical-align: top;}
+		th {padding: 0; width: 20%;} th img {width: 100%;}
+	</style>
+</head><body>
+	<header>
+		<h1>Megucas as Countries</h1>
+		<p>Mitakiharan Magical girls portrayed by Countries</p>
+	</header><main><table appml-data='data'>
+		<tr><th appml-repeat='entries'><img src="pic{{character}}.png"></th></tr>
+		<tr><td appml-repeat='entries'>
+			<img src="https://flagcdn.com/{{code}}.svg" height="80">
+			<h2>{{character}} - {{country}}</h2>
+			<p>{{points}}</p>
+		</td></tr>
+	</table></main><footer appml-include-html='../footer.htm'></footer>
+	<script src="https://www.w3schools.com/appml/2.0.3/appml.js"></script><script>
+	var data = {entries: [
+		{code: 'fr', character: 'Mami', country: 'France',
+			points: ['Lorem', '<br/>Ipsum', '<br/>Dolor']},
+		{code: 'au', character: 'Kyouko', country: 'Australia',
+			points: ['Lorem', '<br/>Ipsum', '<br/>Dolor']},
+		{code: 'ua', character: 'Sayaka', country: 'Ukraine',
+			points: ['Lorem', '<br/>Ipsum', '<br/>Dolor']},
+		{code: 'ca', character: 'Madoka', country: 'Canada',
+			points: ['Lorem', '<br/>Ipsum', '<br/>Dolor']},
+		{code: 'il', character: 'Homura', country: 'Israel',
+			points: ['Lorem', '<br/>Ipsum', '<br/>Dolor']}
+	]}
+	</script>
+</body></html>

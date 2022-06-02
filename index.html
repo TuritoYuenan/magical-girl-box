@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<meta charset="UTF-8"><title>The Magical Girl Box</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+	<link rel="icon" href="symbols/symbKnabm.svg"><link rel="stylesheet" href="common.css"><style>
+		.flex {margin: auto; display: flex; justify-content: center; gap: 1em;}
+		.flex a {padding: .5em; background: #44475a; font-size: x-large; text-align: center;}
+		.flex a img {height: 8em;} main h2 {text-align: center;}
+	</style>
+</head><body>
+	<header><img src="symbols/symbKnabm.svg" style="width: 6em;"><h1>The Magical Girl box</h1>
+		<p>The collection of Magical Girl Documents, Reports and Fanworks</p>
+	</header><main><h2>Current Items</h2>
+		<table appml-data="init"><tr>
+			<th>Project/Repo Description</th><th>Type</th><th>Purpose/Intention</th>
+		</tr><tr appml-repeat="projects">
+			<td><a href="{{id}}">{{desc}}</a></td><td>{{type}}</td><td>{{purpose}}</td>
+		</tr></table><h2>Current Magical Girl Animes</h2><section class="flex">
+			<a href="https://wikipedia.org/wiki/PMMM"><img src="symbols/symbMadokami.svg"><p>Madoka Magica</p></a>
+			<a href="https://wikipedia.org/wiki/BSSM"><img src="symbols/symbSailorMn.svg"><p>Sailor Moon</p></a>
+		</section>
+	</main><footer appml-include-html="footer.htm"></footer>
+	<script src="https://www.w3schools.com/appml/2.0.3/appml.js"></script><script>
+	var init = {projects: [
+		{purpose: 'For Fun    ', type: 'Comparison', id: 'countriesPMMM', desc: 'Madomagi Characters as Countries'},
+		{purpose: 'Researching', type: 'Comparison', id: 'PMMMvsPGSM', desc: 'Madomagi & SailorMoon Comparison'},
+		{purpose: 'Artistics  ', type: 'Design    ', id: 'vexiPMMM', desc: 'Madomagi Vexillology'},
+		{purpose: 'Artistics  ', type: 'Design    ', id: 'vexiPGSM', desc: 'SailorMoon Vexillology'},
+		{purpose: 'Artistics  ', type: 'Design    ', id: 'phoneDesigns', desc: 'Phone designs'},
+		{purpose: 'Artistics  ', type: 'Design    ', id: 'symbols', desc: 'Magical Girl symbols'},
+		{purpose: 'Artistics  ', type: 'Design    ', id: 'wallpapers', desc: 'Magical Girl wallpapers'},
+		{purpose: 'Researching', type: 'Document  ', id: 'cyrillicNames', desc: 'Magical Girl Cyrillic names'},
+	]}
+	</script>
+</body></html>

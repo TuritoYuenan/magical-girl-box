@@ -1,0 +1,27 @@
+:root {
+	/* Zeno Rocha's Dracula color palette */
+	--dcl_BG: #282a36; --dcl_CR: #44475a; --dcl_FG: #f8f8f2;
+	--dcl_CM: #6272a4; --dcl_CY: #8be9fd; --dcl_GR: #50fa7b;
+	--dcl_OR: #ffb86c; --dcl_PK: #ff79c6; --dcl_PR: #bd93f9;
+	--dcl_RD: #ff5555; --dcl_YL: #f1fa8c;
+	/* korechan93's Madomagi color palette */
+	--pmMado: #ff99f0; --pmSaya: #37c9f4; --pmMami: #f6e327;
+	--pmHomu: #ad3bee; --pmKyou: #f22727;
+}
+
+body {
+	margin: 0; color: var(--dcl_FG); font: xx-large Segoe UI, sans-serif;
+	background: var(--dcl_BG) url(wallpapers/stkWindmills.jpg) fixed center no-repeat;
+	background-size: cover;
+}
+
+h1, h2, h3, h4, p {margin: 14px;} a {color: inherit;}
+header, main, footer {padding: 1em;}
+header, footer {background: #282A3680; text-align: center;}
+main {background: var(--dcl_BG);}
+footer {font-size: medium;}
+
+table, th, td {border-collapse: collapse;}
+table {margin: auto;} th, td {padding: .3em;}
+tr:nth-child(even) {background: var(--dcl_CR);}
+tr {background: var(--dcl_BG);}
