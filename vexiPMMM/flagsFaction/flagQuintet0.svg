@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 50">
-	<rect width="80" height="25" fill="#08E"/>
-	<rect width="80" height="25" fill="#E33" y="25"/>
-	<polygon points="00,00 40,25 00,50"/>
-	<g stroke="gold" stroke-width="3">
-		<line x1="00" x2="40" y1="00" y2="25"/>
-		<line x1="00" x2="40" y1="50" y2="25"/>
-		<line x1="40" x2="80" y1="25" y2="25"/>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 6">
+	<rect width="10" height="3" fill="#08E"/>
+	<rect width="10" height="3" fill="#E33" y="3"/>
+	<polygon points="0,0 5,3 0,6" fill="#102"/>
+	<g stroke="gold" stroke-width=".4">
+		<line x1="0" x2="05" y1="0" y2="3"/>
+		<line x1="0" x2="05" y1="6" y2="3"/>
+		<line x1="5" x2="10" y1="3" y2="3"/>
 	</g>
-	<polygon points="9,0 3,18 18,7 0,7 15,18" fill="#F8A" transform="translate(5,15)"/>
+	<polygon points="9,0 3,18 18,7 0,7 15,18" fill="#F8A" transform="scale(.1) translate(10,20)"/>
 </svg>

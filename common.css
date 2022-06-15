@@ -15,13 +15,16 @@ body {
 	background-size: cover;
 }
 
-h1, h2, h3, h4, p {margin: 14px;} a {color: inherit;}
+h1, h2, h3, h4, p, ul, ol {margin: 14px;} a {color: inherit;}
 header, main, footer {padding: 1em;}
 header, footer {background: #282A3680; text-align: center;}
 main {background: var(--dcl_BG);}
 footer {font-size: medium;}
+aside {float: right; overflow: auto;}
 
 table, th, td {border-collapse: collapse;}
 table {margin: auto;} th, td {padding: .3em;}
 tr:nth-child(even) {background: var(--dcl_CR);}
 tr {background: var(--dcl_BG);}
+
+.flex {margin: auto; display: flex; flex-wrap: wrap; justify-content: center; gap: 1em;}
